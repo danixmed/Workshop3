@@ -225,3 +225,48 @@ hovered over. */
 .btn-group:nth-child(2) button:hover {
 background-color: #2e467c;
 }
+/* Remove padding between list elements, align list items all of the way to the
+   left, and make text non-bolded & black. */
+.fb-left-sidebar .nav > li > a {
+padding-top: 2px;
+padding-bottom: 2px;
+padding-left: 5px;
+color: black;
+font-weight: normal;
+}
+/* Make list items have a darker gray background when the mouse hovers
+   over them. */
+.fb-left-sidebar .nav > li > a:hover,
+.fb-left-sidebar .nav > li.active > a:hover {
+  /* This is the color Facebook uses */
+background-color: #dcdee3;
+color: black;
+}
+/* Override Bootstrap's default style, which changes the color/bgcolor of
+   list items when you click on them. */
+.fb-left-sidebar .nav > li > a:active,
+.fb-left-sidebar .nav > li > a:focus,
+.fb-left-sidebar .nav > li > a:active:focus,
+.fb-left-sidebar .nav > li.active > a:active,
+.fb-left-sidebar .nav > li.active > a:focus,
+.fb-left-sidebar .nav > li.active > a:active:focus {
+background-color: transparent;
+color: black;
+}
+/* Make the badges have no background, a dark gray color, and normal font
+   weight (removes bold). */
+.fb-left-sidebar .badge {
+background-color: transparent; /* The same color as Facebook */
+color: #4e5665;
+font-weight: normal;
+}
+/* Color all text items in the left sidebar this color gray. */
+.fb-left-sidebar {
+/* I got this color from Facebook */
+color: #9197a3;
+}
+/* The active pill should be bolded w/ no background. */
+.fb-left-sidebar .nav > li.active > a {
+font-weight: bold;
+background-color: transparent;
+}

@@ -95,80 +95,87 @@
      within a grid, you should not define another `container`)
      What's the difference between these two types of container? There's a
      good answer here: http://stackoverflow.com/a/22263969 -->
-<div class="container">
-  <div class="chat-popup">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-8">
+     <div class="container">
+     <div class="chat-popup">
+     <div class="container-fluid">
+     <div class="row">
+     <div class="col-md-8">
         <span class="green">&#9679</span> Chat (32)
-      </div>
-      <div class="col-md-4">
+     </div>
+     <div class="col-md-4">
         <div class="btn-group pull-right" role="group">
         <button type="button" class="btn btn-xs">
         <span class="glyphicon glyphicon-pencil"></span>
         </button>
         <button type="button" class="btn btn-xs">
-        <span class="glyphicon glyphicon-asterisk"></span> </button>
+        <span class="glyphicon glyphicon-asterisk"></span>
+        </button>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
+     </div>
+     </div>
+     </div>
+     </div>
+     </div>
 
-<!-- The row that contains the three main columns of the website. -->
-<div class="row">
+    <!-- The row that contains the three main columns of the website. -->
+     <div class="row">
     <!-- Left sidebar: A cell that spans 2 columns -->
-<div class="col-md-2">
-  <ul class="nav nav-pills nav-stacked">
-<li role="presentation"><a href="#">John Vilk</a></li> <li role="presentation">
-<a href="#"><span class="glyphicon glyphicon-pencil"></span>
-Edit Profile</a> </li>
+     <div class="col-md-2">
+     <div class="fb-left-sidebar class">
+       <ul class="nav nav-pills nav-stacked">
+       <li role="presentation"><a href="#">John Vilk</a></li> <li role="presentation">
+       <a href="#"><span class="glyphicon glyphicon-pencil"></span>
+       Edit Profile</a> </li>
     <!-- List items that are just text are not indented, and look like the
          Facebook section labels. -->
-<li role="presentation">FAVORITES</li>
-<!-- The class "active" highlights this item in the list --> <li role="presentation" class="active">
-<a href="#"><span class="glyphicon glyphicon-list-alt"></span>
-News Feed</a> </li>
+       <li role="presentation">FAVORITES</li>
+    <!-- The class "active" highlights this item in the list --> <li role="presentation" class="active">
+       <a href="#"><span class="glyphicon glyphicon-list-alt"></span>
+       News Feed</a> </li>
     <!-- We can use badges in pills to add numbers beside them. -->
-<li role="presentation"> <a href="#">
-<span class="glyphicon glyphicon-comment"></span> Messages
-<span class="badge">7</span> </a>
-</li>
-<li role="presentation">
-<a href="#"><span class="glyphicon glyphicon-calendar"></span>
-Events</a> </li>
-<li role="presentation">
-<a href="#"><span class="glyphicon glyphicon-picture"></span> Photos</a>
-</li>
-<li role="presentation">
-  <a href="#"><span class="glyphicon glyphicon-gift"></span>
-Gifts</a> </li>
+       <li role="presentation"> <a href="#">
+       <span class="glyphicon glyphicon-comment"></span> Messages
+       <div class="pull-right">
+       <span class="badge">7</span>
+       </div>
+       </a> </li>
+       <li role="presentation">
+       <a href="#"><span class="glyphicon glyphicon-calendar"></span>
+       Events</a> </li>
+       <li role="presentation">
+       <a href="#"><span class="glyphicon glyphicon-picture"></span> Photos</a>
+       </li>
+       <li role="presentation">
+       <a href="#"><span class="glyphicon glyphicon-gift"></span>
+       Gifts</a> </li>
     <!-- "Saved" also has a number beside it. -->
-<li role="presentation"> <a href="#">
-<span class="glyphicon glyphicon-bookmark"></span> Saved
-<span class="badge">2</span>
-</a> </li>
-<li role="presentation">
-<a href="#"><span class="glyphicon glyphicon-tags"></span> Sale Groups</a>
-</li>
-<li role="presentation">PAGES</li> <li role="presentation">
-<a href="#"><span class="glyphicon glyphicon-plus"></span>
-Create Page</a> </li>
-<li role="presentation">
-<a href="#"><span class="glyphicon glyphicon-signal"></span> Create Ad</a>
-</li>
-<li role="presentation">GROUPS</li> <li role="presentation">
-<a href="#"><span class="glyphicon glyphicon-plus"></span>
-Create Group</a> </li>
-<li role="presentation">
-<a href="#"><span class="glyphicon glyphicon-user"></span> New Groups</a>
-</li>
-<li role="presentation">FRIENDS</li> <li role="presentation">
-<a href="#"><span class="glyphicon glyphicon-pushpin"></span>
-Amherst, MA</a> </li>
-</ul>
-</div>
+      <li role="presentation"> <a href="#">
+      <span class="glyphicon glyphicon-bookmark"></span> Saved
+      <div class="pull-right">
+      <span class="badge">2</span>
+      </div>
+      </a> </li>
+      <li role="presentation">
+      <a href="#"><span class="glyphicon glyphicon-tags"></span> Sale Groups</a>
+      </li>
+      <li role="presentation">PAGES</li> <li role="presentation">
+      <a href="#"><span class="glyphicon glyphicon-plus"></span>
+      Create Page</a> </li>
+      <li role="presentation">
+      <a href="#"><span class="glyphicon glyphicon-signal"></span> Create Ad</a>
+      </li>
+      <li role="presentation">GROUPS</li> <li role="presentation">
+      <a href="#"><span class="glyphicon glyphicon-plus"></span>
+      Create Group</a> </li>
+      <li role="presentation">
+      <a href="#"><span class="glyphicon glyphicon-user"></span> New Groups</a>
+      </li>
+      <li role="presentation">FRIENDS</li> <li role="presentation">
+      <a href="#"><span class="glyphicon glyphicon-pushpin"></span>
+      Amherst, MA</a> </li>
+      </ul>
+    </div>
+    </div>
 
 
     <!-- Main feed: A cell that spans 7 columns -->
