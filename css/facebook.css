@@ -137,8 +137,8 @@ color: white;
 /* Remove the background color and border of all navbar buttons. Make their
    color dark blue, like Facebook. */
 .navbar button {
-background-color:
-transparent; border: none;
+background-color: transparent;
+border: none;
 color: #2e467c;
 }
 /* Make buttons slightly darker when the user hovers over it, like Facebook

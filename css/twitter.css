@@ -1,0 +1,13 @@
+.navbar-center{
+  color: blue;
+}
+body{
+padding-top: 60px;
+}
+.input-group {
+padding-top: 7px;
+width: 395px !important;
+}
+.panel-body{
+  font-size: 20;
+}
