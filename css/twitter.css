@@ -11,6 +11,11 @@ padding: 50px;
 font-size: 20;
 background-color: white;
 }
-.blue{
-color: blue;
+
+.media-body .input-group{
+  width: 500px !important;
+}
+
+.panel-footer{
+  background-color: lightgrey;
 }
