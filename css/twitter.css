@@ -1,16 +1,16 @@
-.navbar-center{
-  color: blue;
-}
 body{
-padding-top: 60px;
-background-image: url(http://weknowyourdreams.com/images/earth/earth-05.jpg);
+padding-top: 80px;
+background-image: url(https://thetab.com/blogs.dir/32/files/2016/05/maxresdefault-2.jpg);
+background-size: cover;
 }
-.input-group {
-padding-top: 7px;
-width: 395px !important;
+.input-group{
+width: 250px !important;
 }
 .panel-body{
-  padding: 10px;
-  font-size: 20;
-  background-color: white;
+padding: 50px;
+font-size: 20;
+background-color: white;
+}
+.blue{
+color: blue;
 }
